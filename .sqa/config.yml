@@ -1,0 +1,42 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.0.0
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/ai4os/ai4-compose:
+      branch: main
+      repo: https://github.com/ai4os/ai4-compose
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/ai4os/ai4-compose git:
+        commands:
+        - /usr/bin/env sh .sqa/script.foggy-azure-kingfisher.sh
+        container: qc.acc_gamy-plum-rattlesnake
+  QC.Doc:
+    repos:
+      github.com/ai4os/ai4-compose find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.wheezy-pumpkin-bonobo.sh
+        container: qc.doc_cranky-malachite-dog
+      github.com/ai4os/ai4-compose git:
+        commands:
+        - /usr/bin/env sh .sqa/script.scaly-beige-bordeaux.sh
+        container: qc.doc_sleepy-gamboge-jellyfish
+  QC.Lic:
+    repos:
+      github.com/ai4os/ai4-compose licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.messy-yellow-quoll.sh
+        container: qc.lic_scaly-lilac-binturong
+  QC.Ver:
+    repos:
+      github.com/ai4os/ai4-compose get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.lanky-cornflower-dragon.sh
+        container: qc.ver_scummy-ruby-mule
+timeout: 5400
