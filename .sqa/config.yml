@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-razzmatazz-sloth.sh
-        container: qc.acc_bumpy-maroon-ant
+        - /usr/bin/env sh .sqa/script.lovely-lemon-alligator.sh
+        container: qc.acc_jumpy-mauve-fousek
   QC.Doc:
     repos:
       github.com/ai4os/ai4-compose find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-cerise-bongo.sh
-        container: qc.doc_grumpy-alizarin-bracke
+        - /usr/bin/env sh .sqa/script.squeaky-buff-capuchin.sh
+        container: qc.doc_ready-tangerine-maltese
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-turquoise-ibis.sh
-        container: qc.doc_leaky-platinum-mole
+        - /usr/bin/env sh .sqa/script.surly-tangerine-argentino.sh
+        container: qc.doc_leaky-emerald-binturong
   QC.Lic:
     repos:
       github.com/ai4os/ai4-compose licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-amber-bracke.sh
-        container: qc.lic_bluesy-rose-wallaby
+        - /usr/bin/env sh .sqa/script.tasty-jade-emu.sh
+        container: qc.lic_jumpy-bronze-skunk
   QC.Ver:
     repos:
       github.com/ai4os/ai4-compose get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-carmine-gerbil.sh
-        container: qc.ver_ready-bistre-hummingbird
+        - /usr/bin/env sh .sqa/script.blurry-azure-hummingbird.sh
+        container: qc.ver_flabby-salmon-serval
 timeout: 5400
