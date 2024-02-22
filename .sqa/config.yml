@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-myrtle-woodlouse.sh
-        container: qc.acc_nerdy-gold-penguin
+        - /usr/bin/env sh .sqa/script.smelly-jade-bat.sh
+        container: qc.acc_dorky-peach-magpie
   QC.Doc:
     repos:
       github.com/ai4os/ai4-compose find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-bistre-molly.sh
-        container: qc.doc_clammy-lilac-lizard
+        - /usr/bin/env sh .sqa/script.surly-taupe-discus.sh
+        container: qc.doc_skinny-orchid-panda
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-rust-kingfisher.sh
-        container: qc.doc_hazy-magenta-worm
+        - /usr/bin/env sh .sqa/script.chewy-malachite-rabbit.sh
+        container: qc.doc_hazy-scarlet-chamois
   QC.Lic:
     repos:
       github.com/ai4os/ai4-compose licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-plum-husky.sh
-        container: qc.lic_lanky-rose-dugong
+        - /usr/bin/env sh .sqa/script.cheeky-chartreuse-mayfly.sh
+        container: qc.lic_woozy-celadon-saola
   QC.Ver:
     repos:
       github.com/ai4os/ai4-compose get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-seashell-collie.sh
-        container: qc.ver_blurry-olivine-macaw
+        - /usr/bin/env sh .sqa/script.geeky-viridian-sheepdog.sh
+        container: qc.ver_nerdy-cinnabar-spoonbill
 timeout: 5400
