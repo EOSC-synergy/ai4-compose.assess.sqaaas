@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-copper-lion.sh
-        container: qc.acc_gloppy-thistle-oriole
+        - /usr/bin/env sh .sqa/script.muggy-cinnamon-walrus.sh
+        container: qc.acc_stinky-black-shrimp
   QC.Doc:
     repos:
       github.com/ai4os/ai4-compose find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-chocolate-termite.sh
-        container: qc.doc_muggy-olivine-eel
+        - /usr/bin/env sh .sqa/script.breezy-gold-rat.sh
+        container: qc.doc_flimsy-sapphire-tzu
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-scarlet-wallaby.sh
-        container: qc.doc_nerdy-crimson-squirrel
+        - /usr/bin/env sh .sqa/script.dorky-sapphire-woodpecker.sh
+        container: qc.doc_snoopy-malachite-flounder
   QC.Lic:
     repos:
       github.com/ai4os/ai4-compose licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-carmine-axolotl.sh
-        container: qc.lic_bumpy-amethyst-bongo
+        - /usr/bin/env sh .sqa/script.snappy-ruby-collie.sh
+        container: qc.lic_jumpy-lilac-fox
   QC.Ver:
     repos:
       github.com/ai4os/ai4-compose get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-copper-indri.sh
-        container: qc.ver_nerdy-cardinal-discus
+        - /usr/bin/env sh .sqa/script.wimpy-pear-dunker.sh
+        container: qc.ver_gamy-wheat-gharial
 timeout: 5400
