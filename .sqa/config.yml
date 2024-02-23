@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.0.0
+      branch: feature/fair-epos-prototype
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/ai4os/ai4-compose:
       branch: main
@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-lemon-alligator.sh
-        container: qc.acc_jumpy-mauve-fousek
+        - /usr/bin/env sh .sqa/script.homey-sepia-chinchilla.sh
+        container: qc.acc_hasty-firebrick-kiwi
   QC.Doc:
     repos:
       github.com/ai4os/ai4-compose find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-buff-capuchin.sh
-        container: qc.doc_ready-tangerine-maltese
+        - /usr/bin/env sh .sqa/script.goopy-rose-indri.sh
+        container: qc.doc_stuffy-heliotrope-woodlouse
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-tangerine-argentino.sh
-        container: qc.doc_leaky-emerald-binturong
+        - /usr/bin/env sh .sqa/script.squeaky-tan-impala.sh
+        container: qc.doc_silly-cream-loon
   QC.Lic:
     repos:
       github.com/ai4os/ai4-compose licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-jade-emu.sh
-        container: qc.lic_jumpy-bronze-skunk
+        - /usr/bin/env sh .sqa/script.greasy-viridian-blue.sh
+        container: qc.lic_gamy-ruby-ray
   QC.Ver:
     repos:
       github.com/ai4os/ai4-compose get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-azure-hummingbird.sh
-        container: qc.ver_flabby-salmon-serval
+        - /usr/bin/env sh .sqa/script.randy-seashell-jaguar.sh
+        container: qc.ver_shaky-dandelion-chinook
 timeout: 5400
