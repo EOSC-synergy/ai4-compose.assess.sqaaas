@@ -15,28 +15,28 @@ sqa_criteria:
     repos:
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-sepia-chinchilla.sh
-        container: qc.acc_hasty-firebrick-kiwi
+        - /usr/bin/env sh .sqa/script.scaly-white-bonobo.sh
+        container: qc.acc_hilly-tan-rabbit
   QC.Doc:
     repos:
       github.com/ai4os/ai4-compose find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-rose-indri.sh
-        container: qc.doc_stuffy-heliotrope-woodlouse
+        - /usr/bin/env sh .sqa/script.snippy-wheat-vole.sh
+        container: qc.doc_shabby-auburn-mouse
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-tan-impala.sh
-        container: qc.doc_silly-cream-loon
+        - /usr/bin/env sh .sqa/script.droopy-lime-toad.sh
+        container: qc.doc_flabby-puce-frog
   QC.Lic:
     repos:
       github.com/ai4os/ai4-compose licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-viridian-blue.sh
-        container: qc.lic_gamy-ruby-ray
+        - /usr/bin/env sh .sqa/script.wheezy-heliotrope-worm.sh
+        container: qc.lic_muggy-tomato-monster
   QC.Ver:
     repos:
       github.com/ai4os/ai4-compose get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-seashell-jaguar.sh
-        container: qc.ver_shaky-dandelion-chinook
+        - /usr/bin/env sh .sqa/script.homely-cream-macaw.sh
+        container: qc.ver_freaky-indigo-lionfish
 timeout: 5400
