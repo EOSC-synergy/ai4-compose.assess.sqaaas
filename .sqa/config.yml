@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.0.0
+      branch: feature/fair-epos-prototype
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/ai4os/ai4-compose:
       branch: main
@@ -15,68 +15,68 @@ sqa_criteria:
     repos:
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-cyan-fly.sh
-        container: qc.acc_leaky-black-forest
+        - /usr/bin/env sh .sqa/script.freaky-lime-chinook.sh
+        container: qc.acc_beady-magnolia-binturong
   QC.Doc:
     repos:
       github.com/ai4os/ai4-compose find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-ivory-capuchin.sh
-        container: qc.doc_trippy-corn-uakari
+        - /usr/bin/env sh .sqa/script.lousy-azure-argentino.sh
+        container: qc.doc_surly-platinum-tang
       github.com/ai4os/ai4-compose git:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-pink-lemming.sh
-        container: qc.doc_muggy-ochre-jaguar
+        - /usr/bin/env sh .sqa/script.smelly-cobalt-loon.sh
+        container: qc.doc_squirrely-tomato-oyster
       github.com/ai4os/ai4-compose markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-rust-bulldog.sh
-        container: qc.doc_snippy-sepia-corgi
+        - /usr/bin/env sh .sqa/script.cranky-maroon-oyster.sh
+        container: qc.doc_lovely-cinnabar-rhinoceros
   QC.Lic:
     repos:
       github.com/ai4os/ai4-compose licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-gold-warthog.sh
-        container: qc.lic_snoopy-gamboge-mule
+        - /usr/bin/env sh .sqa/script.boozy-maroon-birman.sh
+        container: qc.lic_hilly-magnolia-lizard
   QC.Met:
     repos:
       github.com/ai4os/ai4-compose cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-saffron-lobster.sh
-        container: qc.met_muggy-bronze-gharial
+        - /usr/bin/env sh .sqa/script.greasy-copper-numbat.sh
+        container: qc.met_lanky-lime-duck
       github.com/ai4os/ai4-compose validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-lemon-grasshopper.sh
-        container: qc.met_chummy-gamboge-budgerigar
+        - /usr/bin/env sh .sqa/script.fuzzy-thistle-buffalo.sh
+        container: qc.met_boozy-mustard-drever
   QC.Sec:
     repos:
       github.com/ai4os/ai4-compose bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-brass-mandrill.sh
-        container: qc.sec_droopy-grey-coati
+        - /usr/bin/env sh .sqa/script.chewy-ultramarine-anteater.sh
+        container: qc.sec_freaky-sangria-russel
   QC.Sty:
     repos:
       github.com/ai4os/ai4-compose flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-brass-bee.sh
-        container: qc.sty_woolly-linen-rattlesnake
+        - /usr/bin/env sh .sqa/script.stealthy-thistle-flounder.sh
+        container: qc.sty_squeaky-yellow-terrier
       github.com/ai4os/ai4-compose hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-sepia-centipede.sh
-        container: qc.sty_wiggy-silver-chameleon
+        - /usr/bin/env sh .sqa/script.scanty-scarlet-seal.sh
+        container: qc.sty_lovely-taupe-tetra
       github.com/ai4os/ai4-compose jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-ochre-gibbon.sh
-        container: qc.sty_flimsy-linen-whale
+        - /usr/bin/env sh .sqa/script.greasy-black-meerkat.sh
+        container: qc.sty_hasty-vermilion-squirrel
   QC.Uni:
     repos:
       github.com/ai4os/ai4-compose pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-celadon-bat.sh
-        container: qc.uni_wiggy-cobalt-devil
+        - /usr/bin/env sh .sqa/script.wheezy-chartreuse-duck.sh
+        container: qc.uni_baggy-sapphire-barb
   QC.Ver:
     repos:
       github.com/ai4os/ai4-compose get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-grey-woodpecker.sh
-        container: qc.ver_flimsy-pink-mammoth
+        - /usr/bin/env sh .sqa/script.frumpy-cream-coati.sh
+        container: qc.ver_lanky-bronze-hyrax
 timeout: 5400
