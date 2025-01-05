@@ -1178,23 +1178,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "FyFqvaP0QPGy4sgUD4JUfg",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/FyFqvaP0QPGy4sgUD4JUfg",
-                "createdAt": "2025-01-05T17:11:51.069419278Z",
+                "entityId": "5GHxr3sxRBOUwP7PgesX0A",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/5GHxr3sxRBOUwP7PgesX0A",
+                "createdAt": "2025-01-05T17:13:33.790476607Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/FyFqvaP0QPGy4sgUD4JUfg/image",
+                "image": "https://api.eu.badgr.io/public/assertions/5GHxr3sxRBOUwP7PgesX0A/image",
                 "recipient": {
-                    "identity": "sha256$ef0bac14b12fdafc394e8f1f933cac944ab73d9a276b04d66d7846325fccea93",
+                    "identity": "sha256$21aa8af5cf3d9d169dff293a341b0af53b68d33feeedbe6aa51f95bb05990ba5",
                     "hashed": true,
                     "type": "url",
-                    "salt": "iIKB808olWc1F4uO",
+                    "salt": "RIaDO3tNcEVt2T79",
                     "plaintextIdentity": "https://github.com/ai4os/ai4-compose"
                 },
-                "issuedOn": "2025-01-05T17:11:51.069421395Z",
+                "issuedOn": "2025-01-05T17:13:33.790479132Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/ai4os/ai4-compose (commit: 85f0754c2b2a6fde281e87575c3997932d87d24d, branch/tag: main)",
                 "evidence": [
                     {
@@ -1212,7 +1212,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/FyFqvaP0QPGy4sgUD4JUfg"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/5GHxr3sxRBOUwP7PgesX0A"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1224,10 +1224,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-FyFqvaP0QPGy4sgUD4JUfg.png"
+                "imagePath": "uploads/badges/assertion-5GHxr3sxRBOUwP7PgesX0A.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/FyFqvaP0QPGy4sgUD4JUfg?identity__url=https%3A//github.com/EOSC-synergy/ai4-compose.assess.sqaaas/commit/f2a659f3e24e83b210f3793b07d44b12712ce0fe\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/FyFqvaP0QPGy4sgUD4JUfg/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FFyFqvaP0QPGy4sgUD4JUfg?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fai4-compose.assess.sqaaas%2Fcommit%2Ff2a659f3e24e83b210f3793b07d44b12712ce0fe&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fai4-compose.assess.sqaaas%2Fcommit%2Ff2a659f3e24e83b210f3793b07d44b12712ce0fe"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/5GHxr3sxRBOUwP7PgesX0A?identity__url=https%3A//github.com/EOSC-synergy/ai4-compose.assess.sqaaas/commit/f2a659f3e24e83b210f3793b07d44b12712ce0fe\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/5GHxr3sxRBOUwP7PgesX0A/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2F5GHxr3sxRBOUwP7PgesX0A?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fai4-compose.assess.sqaaas%2Fcommit%2Ff2a659f3e24e83b210f3793b07d44b12712ce0fe&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fai4-compose.assess.sqaaas%2Fcommit%2Ff2a659f3e24e83b210f3793b07d44b12712ce0fe"
         }
     }
 }
